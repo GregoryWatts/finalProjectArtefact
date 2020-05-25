@@ -1,0 +1,566 @@
+body{
+
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper{
+
+    width: 100%;
+    height: auto;
+
+    
+}
+
+.navContainer{
+
+    float: left;
+
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+
+    position: relative;
+    
+    text-align: center;
+    
+
+    z-index: 1;
+}
+
+.navTitle{
+
+    width: 50%;
+    height: 15vh;
+
+    float: left;
+
+    font-size: 32px;
+
+    
+
+}
+
+.buttonsContainer{
+    
+    width: 50%;
+    height: 15vh;
+
+    float: left;
+   
+}
+
+.buttonStyles{
+
+    border-style: none;
+    background-color: transparent;
+    z-index: 2;
+
+    transform: translateY(165%);
+
+    font-size: 20px;
+
+    color: white
+
+}
+
+.buttonStyles:hover{
+
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+#titleDiv{
+
+    float: left;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+
+    font-size: 42px;
+    
+    
+}
+
+#titleDiv-1{
+
+    float: left;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    background-color: #FF0909;
+    color: white;
+
+    text-align: center;
+    
+    font-size: 42px;
+}
+
+#titleDiv-2{
+
+    float: left;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    background-color: #00007F;
+    color: white;
+
+    text-align: center;
+
+    font-size: 42px;
+    
+}
+
+#titleDiv-3{
+
+    float: left;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    background-color: #FFFF00;
+    color: black;
+
+    text-align: center;
+
+    font-size: 42px;
+    
+}
+
+#titleDiv-4{
+
+    float: left;
+    position: relative;
+
+    width: 100%;
+    height: auto;
+
+    background-color: black;
+    color: white;
+
+    text-align: center;
+
+    font-size: 42px;
+    
+}
+
+
+
+
+
+#contentDiv{
+
+    float: left;
+
+    width: 100%;
+    height: auto;
+
+    color: black;
+
+    font-size: 28px;
+
+}
+
+#contentDiv-1{
+
+    float: left;
+
+    width: 100%;
+    height: auto;
+
+    color: black;
+
+    font-size: 28px;
+
+    background-color: #FF0909;
+
+}
+
+#contentDiv-2{
+
+    float: left;
+
+    width: 100%;
+    height: auto;
+
+    color: black;
+
+    font-size: 28px;
+
+    background-color: #00007F;
+
+}
+
+#contentDiv-3{
+
+    float: left;
+
+    width: 100%;
+    height: auto;
+
+    color: black;
+
+    font-size: 28px;
+
+    background-color: #FFFF00;
+
+}
+
+#contentDiv-4{
+
+    float: left;
+
+    width: 100%;
+    height: auto;
+
+
+    color: black;
+    background-color: black;
+
+    font-size: 28px;
+
+    background-color: black;
+
+}
+
+#contentDiv p{
+
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+
+    color: black;
+
+    text-align: center;
+
+    
+}
+
+#contentDiv h4{
+
+    max-width: 100%;
+    width: auto;
+    height: auto;
+
+    text-align: center;
+    font-size: 42px;
+    
+}
+
+#contentDiv-1 p{
+
+    max-width: 50%;
+    width: auto;
+    height: auto;
+
+    color: white;
+
+    text-align: left;
+
+    margin-left: 5%;
+}
+
+#contentDiv-2 p{
+
+    max-width: 50%;
+    width: auto;
+    height: auto;
+
+    color: white;
+
+    text-align: left;
+
+    margin-left: 5%;
+}
+
+#contentDiv-3 p{
+
+    max-width: 50%;
+    width: auto;
+    height: auto;
+
+    color: black;
+
+    text-align: left;
+
+    margin-left: 5%;
+}
+
+#contentDiv-4 p{
+
+    max-width: 50%;
+    width: auto;
+    height: auto;
+
+    color: white;
+
+    text-align: left;
+
+    margin-left: 5%;
+}
+
+
+
+.imageDivContainer{
+
+    width: 100%;
+    height: 300px;
+
+    
+
+    float: left;
+    position: relative;
+    overflow: hidden;
+    
+    z-index: 0;
+}
+
+.imageDiv{
+
+    float: left;
+    position: absolute;
+    background: no-repeat;
+
+    width: 100%;
+    height: 100%;
+    
+    filter: brightness(80%);
+    
+    z-index: 1;
+    
+    background-size: cover;
+    background-image: url('../images/image1wide.jpg');
+}
+
+.imageDiv-1{
+
+    float: left;
+    position: absolute;
+    background: no-repeat;
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    filter: brightness(80%);
+    
+    z-index: 1;
+    
+    background-size: cover;
+    background-image: url('../images/image1wide.jpg');
+}
+
+.imageDiv-2{
+
+    float: left;
+    position: absolute;
+    background: no-repeat;
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    filter: brightness(80%);
+    
+    z-index: 1;
+    
+    background-size: cover;
+    background-image: url('../images/image1wide.jpg');
+}
+
+.imageDiv-3{
+
+    float: left;
+    position: absolute;
+    background: no-repeat;
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    filter: brightness(80%);
+    
+    z-index: 1;
+    
+    background-size: cover;
+    background-image: url('../images/image1wide.jpg');
+}
+
+.imageDiv-4{
+
+    float: left;
+    position: absolute;
+    background: no-repeat;
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    filter: brightness(80%);
+    
+    z-index: 1;
+    
+    background-size: cover;
+    background-image: url('../images/image1wide.jpg');
+}
+
+
+
+
+
+#main-text-container{
+
+    width: 100%;
+    height: auto;
+
+    float: left;
+
+    position: relative;
+}
+
+#main-text-container-sec1{
+
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+
+    float: left;
+
+    position: relative;
+
+    background-color: #FF0909;
+    color: white;
+}
+
+#main-text-container-sec2{
+
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+
+    float: left;
+
+    position: relative;
+
+    background-color: #00007F;
+    color: white;
+}
+
+#main-text-container-sec3{
+
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+
+    float: left;
+
+    position: relative;
+
+    
+    background-color: #FFFF00;
+    color: black;
+}
+
+#main-text-container-sec4{
+
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+
+    float: left;
+
+    position: relative;
+
+    background-color: black;
+    color: white;
+}
+
+#main-text-container-sec1 p{
+
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    text-align: right;
+
+    float: right;
+
+    background-color: transparent;
+
+    margin-right: 5%;
+}
+
+#main-text-container-sec2 p{
+
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    text-align: right;
+
+    float: right;
+
+    background-color: transparent;
+
+    margin-right: 5%;
+}
+
+#main-text-container-sec3 p{
+
+    max-width: 50%;
+    width: auto;
+    min-height: 100px;
+    height: auto;
+    text-align: right;
+
+    float: right;
+
+    background-color: transparent;
+
+    margin-right: 5%;
+}
+
+#main-text-container-sec4 p{
+
+    max-width: 50%;
+    width: auto;
+    height: auto;
+    text-align: right;
+
+    float: right;
+
+    background-color: transparent;
+
+    margin-right: 5%;
+}
+
+
+
+
+
+#footer{
+
+    width: 100%;
+    height: 100px;
+
+    float: left;
+    position: relative;
+
+    background-color: black;
+
+    color: white;
+    text-align: center;
+}
+
